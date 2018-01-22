@@ -207,7 +207,7 @@ MonoBehaviour:
   pins: {fileID: 1145983781378428, guid: a4c74f365aa1f7147a2d88cd659cafe8, type: 2}
   ball: {fileID: 0}
   chargeSeconds: 1
-  loadLevel: UphillBattle
+  loadLevel: ThinChallenge
 --- !u!4 &1608803551
 Transform:
   m_ObjectHideFlags: 0

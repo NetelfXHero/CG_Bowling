@@ -40,7 +40,7 @@ public class GameController : MonoBehaviour {
             float power = (Time.time - pressedTime) / chargeSeconds;
             if (power > 1)
             {
-                Debug.Log("Dun Goofed!!");
+                Debug.Log("Some change!!");
             } else
             {
                 ball.Throw(power);
