@@ -54,6 +54,7 @@ public class Ball : MonoBehaviour {
 
     public void Throw(float power)
     {
+        if (IsMoving) return; //don't do anything if we're already moving!!!
         aimer.gameObject.SetActive(false);
         var direction = aimer.transform.position - transform.position;
         direction.Normalize();
