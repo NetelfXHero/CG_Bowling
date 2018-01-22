@@ -53,4 +53,5 @@ public class Ball : MonoBehaviour {
             GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse); 
         }
     }
+    //Hei
 }
