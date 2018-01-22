@@ -11,7 +11,7 @@ public class Ball : MonoBehaviour {
 
     public bool IsMoving { get; private set; }
 
-    // Use this for initialization
+    // Use this for initialization fffffffffffffffffffffffffffffffffffffffff
 	void Start () {
         cam = FindObjectOfType<Camera>();
 	}
