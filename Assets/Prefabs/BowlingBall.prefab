@@ -226,11 +226,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30433f0cbe96a42429f36f1036ad208e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BowlingPrefab: {fileID: 1963665648872316}
   aimer: {fileID: 114354238565656336}
   cam: {fileID: 0}
   aimDistance: 3
   maxPower: 200
   jumpForce: 30
+  startedMove: 0
 --- !u!135 &135510181771562234
 SphereCollider:
   m_ObjectHideFlags: 1
